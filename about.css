@@ -2,11 +2,11 @@ body {
   margin: 0;
 }
 br.small {
-  line-height: 150%;
+  line-height: 130%;
 }
 p {
   line-height: 1.2;
-  margin: 2px;
+  margin: 1px;
 }
 .body {
   position: relative;
