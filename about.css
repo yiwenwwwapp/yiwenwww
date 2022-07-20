@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
 br.small {
-  line-height: 10%;
+  line-height: 150%;
 }
 p {
   line-height: 1.2;
+  margin: 2px;
 }
 .body {
   position: relative;
@@ -36,6 +40,7 @@ p {
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 10;
+  min-height: 50px;
 }
 .header-small {
   height: 50px;
@@ -88,6 +93,7 @@ p {
   /* text-transform: lowercase; */
   text-decoration: none;
   color: rgb(53, 53, 53);
+  min-height: 35px;
 }
 .avatar-name-small {
   margin-top: 0px;
@@ -107,6 +113,7 @@ p {
   font-family: "HelveticaRoundedLTStd-Bd",arial,helvetica;
   text-decoration: none;
   color: rgb(91, 91, 91);
+  min-height: 35px;
 }
 .introduction-title {
   color: white;
