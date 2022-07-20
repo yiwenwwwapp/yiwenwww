@@ -1,3 +1,9 @@
+br.small {
+  line-height: 10%;
+}
+p {
+  line-height: 1.2;
+}
 .body {
   position: relative;
   top: 0;
@@ -6,6 +12,7 @@
   height: auto;
   font-family: sans-serif;
   background-color: #a42e25;
+  background-image: url("./bg2.jpg")
 }
 .body-avatar {
   width: 170px;
@@ -78,7 +85,7 @@
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-family: "HelveticaRoundedLTStd-Bd",arial,helvetica;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   text-decoration: none;
   color: rgb(53, 53, 53);
 }
